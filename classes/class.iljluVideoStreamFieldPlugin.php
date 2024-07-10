@@ -18,7 +18,7 @@ class iljluVideoStreamFieldPlugin extends ilDclFieldTypePlugin {
 	 *
 	 * @return    string    Plugin Name
 	 */
-	function getPluginName() {
+	function getPluginName(): string {
 		return "jluVideoStreamField";
 	}
 }

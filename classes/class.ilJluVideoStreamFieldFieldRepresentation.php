@@ -15,7 +15,7 @@ class ilJluVideoStreamFieldFieldRepresentation extends ilDclPluginFieldRepresent
 	 *
 	 * @return ilDclTextInputGUI
 	 */
-	public function getInputField(ilPropertyFormGUI $form, $record_id = 0) {
+	public function getInputField(ilPropertyFormGUI $form, ?int $record_id = NULL): ?ilFormPropertyGUI {
 		$input = new ilDclTextInputGUI($this->getField()->getTitle(), 'field_' . $this->getField()->getId());
 		$this->setupInputField($input, $this->getField());
 

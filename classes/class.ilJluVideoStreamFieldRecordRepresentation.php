@@ -15,7 +15,7 @@ class ilJluVideoStreamFieldRecordRepresentation extends ilDclBaseRecordRepresent
 	 *
 	 * @return string
 	 */
-	public function getHTML($link = true) {
+	public function getHTML(bool $link = true, array $options = []): string {
 #		return "<strong>".$this->record_field->getValue()."</strong>";
 		if (preg_match("/^https?:\/\//", $this->record_field->getValue())) {
 			return "<video src='".$this->record_field->getValue()."' controls onContextmenu='return false;' width='100%'></video>";

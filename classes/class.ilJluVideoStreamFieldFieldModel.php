@@ -26,7 +26,7 @@ class ilJluVideoStreamFieldFieldModel extends ilDclPluginFieldModel {
 	 *
 	 * @return null|ilDclRecordQueryObject
 	 */
-	public function getRecordQueryFilterObject($filter_value = "", ilDclBaseFieldModel $sort_field = null) {
+	public function getRecordQueryFilterObject($filter_value = "", ilDclBaseFieldModel $sort_field = null): ?ilDclRecordQueryObject {
 		global $ilDB;
 
 		$join_str = "INNER JOIN il_dcl_record_field AS filter_record_field_{$this->getId()} ON (filter_record_field_{$this->getId()}.record_id = record.id AND filter_record_field_{$this->getId()}.field_id = " . $ilDB->quote($this->getId(), 'integer') . ") ";

@@ -3,4 +3,6 @@
 //
  
 <!-- language file start -->
-field_name#:#Video-Stream-URL
+field_name#:#Video-Stream
+field_type_name#:#Video-Stream
+field_type_info#:#URL zu einem Video-Stream, z.B. https://flash.uni-giessen.de/vod/307d3aec9f59efd90bd29d75023512f1.mp4

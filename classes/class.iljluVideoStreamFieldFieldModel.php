@@ -3,12 +3,12 @@ require_once("./Modules/DataCollection/classes/Fields/Plugin/class.ilDclPluginFi
 require_once("./Modules/DataCollection/classes/Helpers/class.ilDclRecordQueryObject.php");
 
 /**
- * Class ilJluVideoStreamFieldFieldModel
+ * Class iljluVideoStreamFieldFieldModel
  *
  * @author  Michael Herren <mh@studer-raimann.ch>
  * @version 1.0.0
  */
-class ilJluVideoStreamFieldFieldModel extends ilDclPluginFieldModel {
+class iljluVideoStreamFieldFieldModel extends ilDclPluginFieldModel {
 	/**
 	 * @param int $a_id
 	 */

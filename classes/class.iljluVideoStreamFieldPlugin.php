@@ -21,4 +21,16 @@ class iljluVideoStreamFieldPlugin extends ilDclFieldTypePlugin {
 	function getPluginName(): string {
 		return "jluVideoStreamField";
 	}
+
+	/**
+	 * Defines which storage will used to save the field data of the plugin.
+	 * Per default the data will be saved as text (1). It can also be saved
+	 * as integer (2) or datetime (3) or you can implement and define an own
+	 * storage (0) wich you handle yourself.
+	 *
+	 * @return    int       Storage Location
+	 */
+	public function getStorageLocation(): int {
+		return 1;
+	}
 }

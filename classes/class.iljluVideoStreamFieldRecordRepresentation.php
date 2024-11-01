@@ -1,12 +1,12 @@
 <?php
 require_once('./Modules/DataCollection/classes/Fields/Base/class.ilDclBaseRecordRepresentation.php');
 /**
- * Class ilJluVideoStreamFieldRecordRepresentation
+ * Class iljluVideoStreamFieldRecordRepresentation
  *
  * @author  Michael Herren <mh@studer-raimann.ch>
  * @version 1.0.0
  */
-class ilJluVideoStreamFieldRecordRepresentation extends ilDclBaseRecordRepresentation {
+class iljluVideoStreamFieldRecordRepresentation extends ilDclBaseRecordRepresentation {
 
 	/**
 	 * Outputs html of a certain field

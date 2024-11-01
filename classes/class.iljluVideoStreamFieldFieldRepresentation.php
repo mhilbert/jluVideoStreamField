@@ -2,12 +2,12 @@
 require_once('./Modules/DataCollection/classes/Fields/Plugin/class.ilDclPluginFieldRepresentation.php');
 
 /**
- * Class ilJluVideoStreamFieldFieldRepresentation
+ * Class iljluVideoStreamFieldFieldRepresentation
  *
  * @author  Michael Herren <mh@studer-raimann.ch>
  * @version 1.0.0
  */
-class ilJluVideoStreamFieldFieldRepresentation extends ilDclPluginFieldRepresentation {
+class iljluVideoStreamFieldFieldRepresentation extends ilDclPluginFieldRepresentation {
 
 	/**
 	 * @param ilPropertyFormGUI $form

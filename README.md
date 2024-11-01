@@ -11,7 +11,7 @@ https://docu.ilias.de/goto_docu_pg_68695_42.html
 
 ### Requirements
 
-* ILIAS 8.x
+* ILIAS 9.x
 
 ### Installation
 

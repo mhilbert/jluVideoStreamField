@@ -1,6 +1,6 @@
 <?php
 
-require_once('./Modules/DataCollection/classes/Fields/Plugin/class.ilDclFieldTypePlugin.php');
+#require_once('./Modules/DataCollection/classes/Fields/Plugin/class.ilDclFieldTypePlugin.php');
 
 /**
  * Class iljluVideoStreamFieldPlugin

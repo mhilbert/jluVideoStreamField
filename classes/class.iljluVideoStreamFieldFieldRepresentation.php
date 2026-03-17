@@ -1,5 +1,5 @@
 <?php
-require_once('./Modules/DataCollection/classes/Fields/Plugin/class.ilDclPluginFieldRepresentation.php');
+#require_once('./Modules/DataCollection/classes/Fields/Plugin/class.ilDclPluginFieldRepresentation.php');
 
 /**
  * Class iljluVideoStreamFieldFieldRepresentation

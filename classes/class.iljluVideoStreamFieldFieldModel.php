@@ -1,6 +1,6 @@
 <?php
-require_once("./Modules/DataCollection/classes/Fields/Plugin/class.ilDclPluginFieldModel.php");
-require_once("./Modules/DataCollection/classes/Helpers/class.ilDclRecordQueryObject.php");
+#require_once("./Modules/DataCollection/classes/Fields/Plugin/class.ilDclPluginFieldModel.php");
+#require_once("./Modules/DataCollection/classes/Helpers/class.ilDclRecordQueryObject.php");
 
 /**
  * Class iljluVideoStreamFieldFieldModel

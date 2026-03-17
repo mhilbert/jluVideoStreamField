@@ -1,5 +1,5 @@
 <?php
-require_once('./Modules/DataCollection/classes/Fields/Plugin/class.ilDclPluginRecordFieldModel.php');
+#require_once('./Modules/DataCollection/classes/Fields/Plugin/class.ilDclPluginRecordFieldModel.php');
 /**
  * Class iljluVideoStreamFieldRecordFieldModel
  *
